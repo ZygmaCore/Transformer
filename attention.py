@@ -54,4 +54,4 @@ if __name__ == '__main__':
     value = torch.rand([batch_size, seq_len, dimensi_embedding])
 
     output = attention_layer(key, query, value)
-    print(output.shape)
+    print(output.shape) 
