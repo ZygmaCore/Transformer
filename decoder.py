@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 from torch.nn.functional import dropout
 
-from utilties import replikasi
+from utilities import replikasi
 from attention import MultiHeadAttention
 from embedding import PositionalEncoding
 from encoder import TransformerBlock
